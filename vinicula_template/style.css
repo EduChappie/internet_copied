@@ -7,8 +7,9 @@
 }
 body {
     font-family: "Lato";
-    background: #171717;
+    background: linear-gradient(117.38deg, rgba(43, 19, 6, 0.2) -2.69%, rgba(30, 25, 22, 0.092) 115.79%), #171717;
 }
+/* -- start Header --*/
 header {
     background: #121212;
 }
@@ -83,10 +84,11 @@ header {
     cursor: pointer;
     background: #a7a7a7;
 }
-/* -- Header -- */
+/* -- end Header -- */
 
+
+/* -- start Section -- */
 .conteudo1_center {
-    /*border: 1px solid red;*/
     width: 90%;
     padding: 12px;
     margin: 0 auto;
@@ -97,7 +99,7 @@ header {
     align-items: start;
 }
 .conteudo1_center .info_button {
-    width: 55%;
+    width: 80%;
     text-align: center;
 }
 .info h1 {
@@ -131,5 +133,128 @@ header {
     font-style: italic;
     color: white;
 }
+/* --  end section -- */
 
-/* -- section -- */
+/* -- start last info */
+.ancInfo {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 140px;
+    text-align: center;
+}
+.ancInfo .buttonMore {
+    width: 588px;
+    height: 76px;
+    margin: 0 auto;
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 49.5px;
+}
+.ancInfo .buttonMore:hover {
+    transition: all 0.2s ease;
+    background: rgb(197, 197, 197);
+    cursor: pointer;
+    margin-top: 150px;
+}
+.ancInfo h2 {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.08em;
+    color: #171717;
+}
+.ancInfo img {
+    width: 50px;
+    height: 50.49px;
+}
+/* -- end last info -- */
+
+/* responsive*/
+@media only screen and (max-width: 1320px) {
+    .conteudo1_center {
+        width: 95%;
+        padding: 0;
+    }
+    .main_img img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1164px) {
+    .conteudo1_center {
+        width: 80%;
+        padding: 0;
+    }
+    .info h1 {
+        font-size: 30px;
+    }
+    .center nav {
+        width: 95%;
+    }
+}
+@media only screen and (max-height: 880px) {
+    .ancInfo {
+        margin-top: 60px;
+    }
+    .conteudo1_center {
+        margin-top: 89px;
+    }
+    .ancInfo .buttonMore:hover {
+        transition: all 0.2s ease;
+        background: rgb(197, 197, 197);
+        cursor: pointer;
+        margin-top: 80px;
+    }
+}
+@media only screen and (max-width: 1010px) {
+    .options {
+        display: none;
+    }
+    .conteudo1_center {
+        width: 99%;
+        padding: 5px;
+        flex-direction: column;
+        margin-top: 28px;
+        text-align: center;
+        align-items: center;
+    }
+    .info h1 {
+        margin: 0;
+        font-size: 20px;
+    }
+    .main_img img {
+        width: 100%;
+    }
+    .ancInfo .buttonMore {
+        margin: 0 auto;
+        width: 80%;
+        height: 10%;
+    }
+    .buttonMore h2 {
+        font-size: 15px;
+    }
+    .info_button {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttonBuy button {
+        font-size: larger;
+        text-align: center;
+        margin: 5px;
+        margin-top: 20px;
+        width: 80%;
+    }
+    .ancInfo {
+        margin-top: 70px;
+    }
+    .buttonBuy span {
+        margin: 0;
+        margin-top: -10px;
+    }
+}
