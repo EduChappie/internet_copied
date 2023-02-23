@@ -84,3 +84,52 @@ header {
     background: #a7a7a7;
 }
 /* -- Header -- */
+
+.conteudo1_center {
+    /*border: 1px solid red;*/
+    width: 90%;
+    padding: 12px;
+    margin: 0 auto;
+    margin-top: 128px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+.conteudo1_center .info_button {
+    width: 55%;
+    text-align: center;
+}
+.info h1 {
+    font-family: "Abril Fatface";
+    font-size: 45px;
+    font-weight: normal;
+    color: white;
+    text-align: initial;
+    margin-left: -135px;
+    margin-bottom: 150px;
+}
+.buttonBuy button {
+    width: 288px;
+    height: 62px;
+    font-size: 30px;
+    font-family: "Abril Fatface";
+    border: 1px solid #121212;
+    color: #FC8C08;
+    background: #FEFEFE;
+    border-radius: 5px;
+}
+.buttonBuy button:hover {
+    transition: all 0.2s linear;
+    background: rgb(212, 212, 212);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.buttonBuy span {
+    font-size: small;
+    margin-left: -50px;
+    font-style: italic;
+    color: white;
+}
+
+/* -- section -- */
