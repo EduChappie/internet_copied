@@ -20,6 +20,7 @@ article {
 }
 .conteudo1 {
     width: 580px;
+    margin-bottom: 120px;
     display: flex;
     flex-direction: column;
 }
