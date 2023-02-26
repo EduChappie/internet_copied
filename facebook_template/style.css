@@ -71,6 +71,7 @@ article {
     font-size: 17px;
     border-radius: 6px;
     padding: 14px 16px;
+    outline: none;
     border: 1px solid rgb(212, 212, 212);
 }
 .form_box form > input[type=submit] {
