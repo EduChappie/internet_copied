@@ -7,6 +7,7 @@ Um repositório de estudo Front-end, aqui você pode encontrar projetos meus ond
 - [Vinícula Landpage](#vinícula_landpage)
 - [Interface Login](#interface_de_login)
 - [Portifolio Website](#portifolio_website)
+- [Spotify Website - em produção]
 
 ### Facebook_template
 Copia da primeira página do Facebook feita para teste de conhecimento e pondo em prática a responsibilidade
