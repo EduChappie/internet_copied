@@ -6,6 +6,7 @@ Um repositório de estudo Front-end, aqui você pode encontrar projetos meus ond
 - [Facebook Template](#facebook_template)
 - [Vinícula Landpage](#vinícula_landpage)
 - [Interface Login](#interface_de_login)
+- [Portifolio Website](#portifolio_website)
 
 ### Facebook_template
 Copia da primeira página do Facebook feita para teste de conhecimento e pondo em prática a responsibilidade
@@ -19,3 +20,7 @@ Primeiro site usando o Figma, site simples de landpage para uma vinícula de vin
 Uma página com um formulário temático, utilizando uma biblioteca de figurinhas e mais de CSS3
 ![interface_login](https://user-images.githubusercontent.com/64032063/221443091-60736253-fffa-4547-a917-62f52654d987.png)
 Usando como base um canal no [YouTube](https://www.youtube.com/watch?v=1H-vSHVOxoU), para dá-lo os devidos créditos
+
+### Portifolio_Website
+Um site de teste para design, usando javascript com o "Type,js" e usando animation no CSS e outras ferramentas
+![portifolio_site](https://user-images.githubusercontent.com/64032063/222923181-eebda566-b4cd-4ef3-8c25-8eb3b2aea84d.png)
